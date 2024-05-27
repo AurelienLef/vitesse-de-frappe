@@ -1,0 +1,48 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+#jeux{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#texte{
+    border: 1px solid black;
+    margin-bottom: 30px;
+    font-size: 22px;
+    min-width: 300px;
+    max-width: 600px;
+    min-height: 30px;
+    padding: 20px 30px;
+}
+
+textarea{
+    width: 400px;
+    height: 90px;
+    resize: none;
+}
+
+span{
+    padding: 4px 2px;
+}
+
+.surligne{
+    color: white;
+    background-color: gray;
+}
+
+#chrono{
+    padding: 30px;
+    margin: 20px;
+    border-radius: 50%;
+    background-color: wheat;
+}
